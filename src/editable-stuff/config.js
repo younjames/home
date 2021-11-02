@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "James",
   middleName: "",
   lastName: "Young",
-  message: " Computational mechanical engineer. ",
+  message: " | Programmer | Mechanical Engineer | Researcher | Problem Solver | ",
   icons: [
     {
       image: "fa-github",
