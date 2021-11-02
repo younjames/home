@@ -6,30 +6,34 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "James",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Young",
+  message: " Computational mechanical engineer. ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/younjames",
     },
+    // {
+    //   image: "fa-facebook",
+    //   url: "https://www.facebook.com/hashirshoaeb",
+    // },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      image: "fa-linkedin",
+      url: "https://www.linkedin.com/in/jamesyoung4/",
+    },
+    // {
+    //   image: "fa-twitter",
+    //   url: "https://www.twitter.com/hashirshoaeb/",
+    // },
+    {
+      image: "fa-researchgate",
+      url: "https://www.researchgate.net/profile/James-Young-19",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
-    },
-    {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.instagram.com/__james_y__/",
     },
   ],
 };
@@ -51,11 +55,16 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/jamesyoung.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "I graduated top of my class with a Master's in Mechanical Engineering with Renewable Energy from" +
+    " The University of Edinburgh in 2014. I then completed a PhD where I wrote an accelerated numerical" +
+    " solver using the Smoothed Particle Hydrodynamics meshless method. Following a year spent developing" +
+    " a spin-out company based on thermal-energy storage, I investigated time series forecasting for" +
+    " FOREX trading. I'm currently a Post-Doctoral Researcher using Spherical Harmonics to model non-spherical"+
+    " particles and am writing a package for the open-source software LAMMPS.",
+  // resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -66,10 +75,11 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  gitHubUsername: "younjames", //i.e."johnDoe12Gh"
+  reposLength: 0,
+  specificRepos: ["trote3d","lammps","younjames.github.io","Dynamics_4_Notebooks"],
 };
+// 
 
 // Leadership SECTION
 const leadership = {
@@ -100,24 +110,26 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
+    { name: "Python (Tensorflow, Scikit-learn, Pandas, Hyperopt)", value: 90 },
     { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Jupyter Notebooks", value: 80 },
+    { name: "C/C++", value: 70 },
+    { name: "Fortran", value: 80 },
+    { name: "Bash", value: 75 },
+    { name: "Git (Github actions)", value: 85 },
+    { name: "HPC (OpenMP, MPI, GPGPU)", value: 90 },
+
+
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "IDEs (Sublime, Visual Studio Code, Clion, Pycharm)", value: 90 },
+    { name: "Postprocessing (Paraview, Blender) ", value: 80 },
+    { name: "Abaqus FEA", value: 60 },
+    { name: "Solid Edge", value: 70 },
+    { name: "AutoCad LT", value: 55 },
+    { name: "Dialux", value: 60 },
+    { name: "Paraview", value: 80 },
+    { name: "Star-CCM+", value: 60 },
   ],
 };
 
@@ -126,8 +138,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently open to full-time Software Engineering or Machine Learning opportunities! If you know of any positions available or if you have any questions, please feel free to email me at",
+  email: "younjames@gmail.com",
 };
 
 const experiences = {
