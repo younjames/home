@@ -77,7 +77,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "younjames", //i.e."johnDoe12Gh"
   reposLength: 0,
-  specificRepos: ["trote3d","lammps","younjames.github.io","Dynamics_4_Notebooks"],
+  specificRepos: ["trote3d","lammps","particles2021","Dynamics_4_Notebooks"],
 };
 // 
 
